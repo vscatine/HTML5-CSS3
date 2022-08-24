@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Martz90-Circle-Video-camera.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeos está hopedado no meu prório servidor.</p>
+    <video src="midia/meu_video.m4v" width="500" controls></video><br>
+    <video width="500" poster="images/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu_video.m4v" type="video/mp4">
+        <source src="midia/meu_video.webm" type="video/webm">
+        <source src="midia/meu_video.mp4" type="video/mp4">
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m7p0C9VJu6Q" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/481541133?h=b3b75f34e4&autoplay=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/481541133">CSCA Creative Best 2020 Presentation</a> 
+    from <a href="https://vimeo.com/thecsca">CSCA</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
