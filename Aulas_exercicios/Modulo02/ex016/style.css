@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, yellow 10%, red 40%, green);
+}
