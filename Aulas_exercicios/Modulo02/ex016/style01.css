@@ -5,6 +5,8 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
     text-align: justify;
     background-image: linear-gradient(to right, #ff9bb5, #df849d, #f22e89ea);
 }
@@ -19,6 +21,7 @@ main {
 }
 
 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #59202B;
     text-align: center;
     text-shadow: 1px 1px 2px #290f14b8;
@@ -26,4 +29,8 @@ h1 {
 
 h2 {
     color: #BF0A3A;
+}  
+
+p {
+    font-family: 'Courier New', Courier, monospace;
 }
