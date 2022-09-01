@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/Chromatix-Keyboard-Keys-Hash.ico" type="image/x-icon">
+    <title>Pseudo Classes/Elementos</title>
+    <style>
+        body {
+            font: normal 1em Arial, Helvetica, sans-serif;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            color: white;
+            background-color: blueviolet;
+        }
+
+        .especial::before {
+            content: '=>';
+            font-weight: 100;
+        }
+
+        .especial::after {
+            content: '<=';
+            font-weight: 100;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            padding: 5px;
+            font-weight: bolder;
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <p>Para aprender HTML5 e CSS3, acesse o
+        <a href="https://github.com/gustavoguanabara/html-css" target="_blank" rel="external">Github do Guanabara</a>
+    </p>
+    <p>Se quiser saber mais sobre padrões, visite o site do
+        <a href="https://www.w3c.br/" target="_blank" rel="external">W3C Brasil</a>
+    </p>
+    <p>Para acompanhar os cursos acesse o
+        <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="external" class="especial">Canal do Curso em Vídeo</a>
+    </p>
+    <h1>Conteúdo Especial</h1>
+    <div>Passe o mouse aqui
+        <p>SURPRISE MTF!</p>
+    </div>
+    <p>Veja o contaúdo oculto aparecendo!</p>
+</body>
+</html>
