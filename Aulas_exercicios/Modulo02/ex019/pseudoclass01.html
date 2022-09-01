@@ -24,6 +24,16 @@
             text-decoration: underline;
         }
 
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: ' [link]';
+            color: darkgreen;
+            font-weight: lighter;
+        }
+
         .especial:hover {
             color: white;
             background-color: blueviolet;
@@ -46,6 +56,7 @@
         div:hover > p {
             display: block;
             padding: 5px;
+            width: fit-content;
             font-weight: bolder;
             background-color: yellow;
             color: black;
