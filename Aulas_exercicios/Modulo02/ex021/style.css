@@ -3,18 +3,47 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(-95deg, #BD5CE0, #8859F7);
+    margin: 0px;
+
 }
 
 header {
     background-color: white;
-    height: 75px;
-    width: auto;
     padding: 10px;
+    margin: 10px;
 }
 
-h1 {
-    margin: 5px 10px;
-    text-decoration: underline;
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+article {
+    background-color: lightgray;
+    text-align: justify;
+    padding: 5px 5px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.autor {
+    background-color: rgb(141, 141, 141);
+    padding: 1px;
+    font-weight: lighter;
+}
+
+footer {
+    /*background-color: black;*/
+    background-image: linear-gradient(-25deg, gray, black 65%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 0px;
 }
 
 .botao {
@@ -36,9 +65,5 @@ h1 {
     text-decoration: underline;
 }
 
-.artigo {
-    background-color: white;
-    text-align: justify;
-    height: auto;
-    width: auto;
-}
+
+
