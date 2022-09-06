@@ -11,42 +11,15 @@ header {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
 }
 
-main {
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
+header > h1 {
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
 }
 
-article {
-    background-color: lightgray;
-    text-align: justify;
-    padding: 5px 5px;
-}
-
-article > p {
-    text-align: justify;
-    text-indent: 10px;
-}
-
-.autor {
-    background-color: rgb(141, 141, 141);
-    padding: 1px;
-    font-weight: lighter;
-}
-
-footer {
-    /*background-color: black;*/
-    background-image: linear-gradient(-25deg, gray, black 65%);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: white;
-    padding: 1px;
-    margin: 0px;
-}
-
-.botao {
+.button {
     text-align: center;
     display: inline-block;
     background-color: darkgray;
@@ -56,14 +29,65 @@ footer {
     margin: 3px;
     border: 2px solid black;
     text-decoration: none;
+    box-shadow: 2px 2px 3px 1px #0000006b;
+    border-radius: 0px 10px ;
 }
 
-.botao:hover {
-    background-color: black;
-    border-color: #BD5CE0;
+.button:hover {
     color: white;
     text-decoration: underline;
+    border-radius: 10px 0px;
+    
 }
 
+.button:active {
+    background-color: #8859F7;
+    box-shadow: inset 2px 2px 3px 1px #0000006b;
+}
 
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
+article {
+    background-color: lightgray;
+    text-align: justify;
+    padding: 5px 5px;
+}
+
+article > h2 {
+    margin:5px 0px 0px 0px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 12px 0px;
+}
+
+.autor {
+    background-color: rgb(141, 141, 141);
+    padding: 1px 5px;
+    font-weight: lighter;
+}
+
+.autor > p {
+    margin: 0px;
+}
+
+footer {
+    /*background-color: black;*/
+    background-image: linear-gradient(-25deg, gray, black 65%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
