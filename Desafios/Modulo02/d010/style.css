@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fonts/IDroid.otf') format('truetype');
+}
+
+body {
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3bd47f, #1a5c38);
+    color: white;
+    margin: 0px;
+}
+
+#maintitle {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+header > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+    width: 420px;
+    padding: 10px 0px 15px 0px;
+    margin: auto;
+}
+
+
+
+.button {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px; 
+}
+
+.button:hover {
+    background-color: #258b52;
+    color: #284134;
+    text-decoration: dashed;
+    box-shadow: 3px 1px 3px 0px #4744447d;
+}
+
+.button:active {
+    box-shadow: inset 3px 1px 3px 0px #4744447d;
+}
+
+main {
+    background-color: white;
+    margin: 0px 25px 0px 25px;
+}
+
+
+article > h1,h2 {
+    font-family: 'idroid';
+}
