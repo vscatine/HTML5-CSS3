@@ -35,8 +35,6 @@ header > p {
     margin: auto;
 }
 
-
-
 .button {
     display: inline-block;
     text-align: left;
@@ -62,9 +60,9 @@ header > p {
 main {
     background-color: white;
     margin: 0px 25px 0px 25px;
+    padding: 5px 10px 5px 10px;
 }
 
-
-article > h1,h2 {
-    font-family: 'idroid';
+section > .title {
+    font-family: "idroid";
 }
