@@ -15,6 +15,7 @@ header {
     background-image: linear-gradient(to bottom, #3bd47f, #1a5c38);
     color: white;
     margin: 0px;
+    box-shadow: 0px 5px 4px 1px #1b1b1b61;
 }
 
 #maintitle {
@@ -61,8 +62,42 @@ main {
     background-color: white;
     margin: 0px 25px 0px 25px;
     padding: 5px 10px 5px 10px;
+    box-shadow: 0px 5px 4px 4px #1b1b1b61;
+}
+
+.enfase {
+    color: #118143;
+    font-weight: bolder;
 }
 
 section > .title {
     font-family: "idroid";
+    color: #1a5c38;
+    background-image: linear-gradient(to right, #3bd4805b, white) ;
+    padding: 0px 10px;
+}
+
+#tit01 {
+    font-family: "idroid";
+    color: #1a5c38;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.link {
+    text-decoration: none;
+    color: #1a5c38;
+    background-color: #3bd47f;
+    font-weight: bolder;
+}
+
+.link::after {
+    content: '🔗';
+}
+
+.link:hover {
+    text-decoration: dashed;
 }
