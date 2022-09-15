@@ -94,10 +94,15 @@ section > p {
     font-weight: bolder;
 }
 
+.link:hover {
+    text-decoration: dashed;
+    color: white;
+}
+
 .link::after {
     content: '🔗';
 }
 
-.link:hover {
-    text-decoration: dashed;
+.video {
+    background-color: #1a5c38;
 }
