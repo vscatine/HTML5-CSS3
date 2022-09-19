@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        body{
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+            background-repeat: repeat;
+            background-position: center top;
+        }
+        .square {
+            display: inline-block;
+            margin: 5px;
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            
+        }
+
+        div#sq01 {
+            background-color: skyblue;
+        }
+
+        div#sq02 {
+            background-image: linear-gradient(-45deg, purple, rgb(193, 60, 111));
+        }
+
+        div#sq03{
+            background-image: url('imagens/pattern003.png');
+        }
+
+    </style>
+</head>
+<body>
+    <div class="square" id="sq01"></div>
+    <div class="square" id="sq02"></div>
+    <div class="square" id="sq03"></div>
+    <div class="square" id="sq04"></div>
+</body>
+</html>
