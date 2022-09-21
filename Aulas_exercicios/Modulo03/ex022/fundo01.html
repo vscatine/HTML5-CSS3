@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+
+        div.square {
+            display: inline-block;
+            margin: 5px;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+        }
+
+        div#s1 {
+            background-color: aqua;
+        }
+
+        div#s2 {
+            background-image: linear-gradient(to top, red, yellow);
+        }
+
+        div#s3 {
+            background-image: url('imagens/pattern001.png');
+        }
+
+        div#s3:hover {
+            background-image: url('imagens/pattern003.png');
+        }
+
+        div#s3:active {
+            background-image: url('imagens/pattern002.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="square" id="s1"></div>
+    <div class="square" id="s2"></div>
+    <div class="square" id="s3"></div>
+</body>
+</html>
