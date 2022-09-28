@@ -8,8 +8,9 @@
     margin: 0px;
 }
 
-body {
-    background-color: rgb(148, 148, 148);
+body, html {
+    background-color: lightgrey;
+    min-height: 100vh;
 }
 
 a {
@@ -55,6 +56,10 @@ section {
     padding-left: 30px;
 }
 
+section p {
+    padding-bottom: 1em;
+}
+
 
 section.normal {
     background-color: white;
@@ -68,9 +73,11 @@ section.image {
 }
 
 section.image p {
-    background-color: rgba(0, 0, 0, 0.29);
     width: fit-content;
     height: fit-content;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.29);
+    
 }
 
 section#img01 {
