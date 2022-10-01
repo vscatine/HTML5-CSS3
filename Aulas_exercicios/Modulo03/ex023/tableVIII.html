@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50vw;
+        }
+
+        col.nome, col.idade {
+            background-color: aqua;
+        }
+        
+        col.sexo, col.prof {
+            background-color: chartreuse;
+        }
+
+        caption {
+            font-weight: bold;
+            background-color: lightblue;
+            padding: 5px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>colgroup</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Suporte</td>
+        </tr>
+        <tr>
+            <td>Gabriela</td>
+            <td>Feminino</td>
+            <td>27</td>
+            <td>Veterinária</td>
+        </tr>
+        <tr>
+            <td>Eike</td>
+            <td>Masculino</td>
+            <td>15</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>Masculino</td>
+            <td>50</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Tereza</td>
+            <td>Feminino</td>
+            <td>45</td>
+            <td>Bicheira</td>
+        </tr>
+    </table>
+</body>
+</html>
