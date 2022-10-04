@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        caption {
+            background-color: lightcyan;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        col.nome, col.idade {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Suporte</td>
+        </tr>
+        <tr>
+            <td>Gabriela</td>
+            <td>Feminino</td>
+            <td>27</td>
+            <td>Veterinária</td>
+        </tr>
+        <tr>
+            <td>Eike</td>
+            <td>Masculino</td>
+            <td>15</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+</body>
+</html>
