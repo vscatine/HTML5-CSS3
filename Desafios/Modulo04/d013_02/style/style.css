@@ -30,10 +30,10 @@ section#phone {
 
 iframe#screen {
     position: absolute;
-    top: 82px;
-    left: 25px;
-    width: 262px;
-    height: 467.5px;
+    top: 80px;
+    left: 21px;
+    width: 270px;
+    height: 471px;
 }
 
 section#social {
@@ -52,5 +52,5 @@ section#social img:hover {
     border: 2px solid rgba(255, 255, 255, 0.700);
     transform: translate(-3px, -3px);
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.650);
-    transition: border 0.7s;
+    transition: border 0.3s;
 }
