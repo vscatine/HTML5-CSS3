@@ -1,0 +1,1 @@
+Evitando uma mensagem de erro não tratada.
