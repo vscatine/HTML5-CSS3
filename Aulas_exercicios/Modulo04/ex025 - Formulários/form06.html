@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color, Range e File</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icolor">Cor</label>
+            <input type="color" name="color" id="icolor" value="#ff0066">
+        </p>
+        <label for="irange">Nível</label>
+        <input type="range" name="range" id="irange" value="25">
+        
+        <p>
+            <label for="irange1-5">Escohla entre 1 e 5</label>
+            <input type="range" name="range1-5" id="irange1-5" min="1" max="5" value="4">
+        </p>
+        <p>
+            <label for="ifle">Escolha um arquivo</label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
