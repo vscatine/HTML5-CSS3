@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output e JS</title>
+</head>
+<body>
+    <h1>Exemplo de output com JS</h1>
+    <form action="cadastro.php">
+        <p>
+            <label for="inum1">1° Número</label>
+            <input type="number" name="num1" id="inum1" min="0" max="20" required
+            oninput="isum.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">2° Número</label>
+            <input type="number" name="num2" id="inum2" min="0" max="20" required
+            oninput="isum.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="isum">Soma</label>
+            <output name="sum" id="isum">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
