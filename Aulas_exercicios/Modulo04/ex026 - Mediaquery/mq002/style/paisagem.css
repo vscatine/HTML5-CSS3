@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Estilo paisagem (deitado) */
+
+body {
+    background-image: url(../Imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
