@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* Estilo outras mídias */
+
+/*
+Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px 
+*/
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    #icprint {display: block; padding: 10px;}
+    #icphone {display: none;}
+    #ictablet {display: none;}
+    #icpc {display: none;}
+    #ictv {display: none;}
+
+    body::after {
+        content: "Essa impressão foi feita atravé do Github Vscatine";
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /*TABLET*/
+    body {
+        background-image: url(../Imagens/back-tablet.jpg);
+    }    
+    
+    #icprint {display: none;}
+    #icphone {display: none;}
+    #ictablet {display: block;}
+    #icpc {display: none;}
+    #ictv {display: none;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) { /*DESKTOP*/
+    body {
+        background-image: url(../Imagens/back-pc.jpg);
+    }
+
+    #icprint {display: none;}
+    #icphone {display: none;}
+    #ictablet {display: none;}
+    #icpc {display: block;}
+    #ictv {display: none;}
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        background-image: url(../Imagens/back-tv.jpg);
+    }
+
+    #icprint {display: none;}
+    #icphone {display: none;}
+    #ictablet {display: none;}
+    #icpc {display: none;}
+    #ictv {display: block;}
+}
