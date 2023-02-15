@@ -31,8 +31,8 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 80vw;
+    height: 90vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.445);
@@ -52,4 +52,92 @@ section#login > div#imglog {
 section#login > div#form_log {
     display: block;
     padding: 10px;
+}
+
+div#form_log > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form_log > p {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom:10px;
+}
+
+div#form_log > form > div.field {
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+div.field > input {
+    width: 80%;
+    padding: 3px;
+}
+
+div#form_log > form > div.btn {
+    text-align: center;
+    padding: 5px;
+}
+
+div.btn > input {
+    font-size: 1em;
+    background-color: #49a09d;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 60%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+}
+
+div.btn > input:hover {
+    box-shadow: 0px 0px 10px 1px #49a09d9b;
+    cursor: pointer;
+}
+
+div.btn > input:active {
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.204);
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+
+
+div.btn > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: #49a09d;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+    margin: auto; 
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);  
+}
+
+div.btn > a > span {
+    font-size: 0.8em;
+}
+
+div.btn > a:hover {
+    border: none;
+    background-color: #49a09d;
+    color: white;
+    box-shadow: 0px 0px 10px 1px #49a09d;
+    cursor: pointer;
+}
+
+div.btn > a:active {
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.204);
+    font-weight: bold;
+}
+
+
+div.separador10 {
+    margin: 10px;
 }
